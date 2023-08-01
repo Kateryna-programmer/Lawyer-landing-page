@@ -133,7 +133,7 @@ body {
 /* --------SLIDER------------ */
 
 .slider {
-  background: url(img/hero.jpg);
+  background: url(../img/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -467,7 +467,7 @@ body {
 /* ------------advantages------------------ */
 .advantages {
   padding: 55px 0px 40px;
-  background-image: url(img/advantages.jpg);
+  background-image: url(../img/advantages.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   min-height: 285px;
