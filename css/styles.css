@@ -19,7 +19,7 @@ li {
 }
 
 body {
-  font-family: "PT Serif", serif;
+  font-family: 'PT Serif', serif;
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
@@ -27,7 +27,7 @@ body {
 }
 /* _________________HEADER________________ */
 .header {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .header-top {
   background-color: #303030;
@@ -42,8 +42,8 @@ body {
   position: relative;
 }
 .header-btn::before {
-  content: "\f0b1";
-  font-family: "icomoon";
+  content: '\f0b1';
+  font-family: 'icomoon';
   position: absolute;
   left: 22px;
   color: #1b1b1b;
@@ -61,8 +61,8 @@ body {
   padding-right: 30px;
 }
 .header-phone::before {
-  content: "\f095";
-  font-family: "icomoon";
+  content: '\f095';
+  font-family: 'icomoon';
   position: absolute;
   left: 0;
   color: #ffc222;
@@ -71,8 +71,8 @@ body {
   padding-left: 24px;
 }
 .header-email::before {
-  content: "\f003";
-  font-family: "icomoon";
+  content: '\f003';
+  font-family: 'icomoon';
   position: absolute;
   left: 0;
   color: #ffc222;
@@ -133,7 +133,7 @@ body {
 /* --------SLIDER------------ */
 
 .slider {
-  background: url(/img/hero.jpg);
+  background: url(img/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -154,7 +154,7 @@ body {
   font-weight: 500;
   letter-spacing: 1.5px;
   margin-bottom: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .slider-text {
   line-height: 24px;
@@ -168,7 +168,7 @@ body {
   line-height: 24px;
   color: #fff;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 8px 30px 8px 24px;
   border: 1px solid #ffc222;
   border-right-width: 20px;
@@ -177,8 +177,8 @@ body {
   outline: none;
 }
 .default-btn::after {
-  content: "\f105";
-  font-family: "icomoon";
+  content: '\f105';
+  font-family: 'icomoon';
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -208,20 +208,20 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "icomoon";
+  font-family: 'icomoon';
   color: #fff;
 }
 .slick-next {
   right: 0;
 }
 .slick-next:before {
-  content: "\f105";
+  content: '\f105';
 }
 .slick-prev {
   left: 0;
 }
 .slick-prev:before {
-  content: "\f104";
+  content: '\f104';
 }
 /*---------services------- */
 .services {
@@ -243,7 +243,7 @@ body {
 .services-title-box:before,
 .form-title-box:before,
 .news-title-box:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 100px;
   height: 2px;
@@ -258,7 +258,7 @@ body {
   font-weight: 500;
   line-height: 24px;
   color: #212020;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 20px;
 }
 .services-text,
@@ -293,7 +293,7 @@ body {
   line-height: 24px;
   font-size: 18px;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 24px 0px;
 }
 .services-item-text {
@@ -314,7 +314,7 @@ body {
 }
 .services-item-link {
   color: #050505;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   border-bottom: 1px solid #050505;
   margin-right: 60px;
 }
@@ -336,7 +336,7 @@ body {
   line-height: 24px;
   color: #fff;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .about-text {
   margin-bottom: 30px;
@@ -383,7 +383,7 @@ body {
 .form-box-inner label {
   line-height: 36px;
   color: #282828;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .form-box-inner input {
   margin-bottom: 8px;
@@ -418,8 +418,8 @@ body {
   padding-left: 17px;
 }
 .form-box-inner .jq-selectbox__trigger:before {
-  content: "\f105";
-  font-family: "icomoon";
+  content: '\f105';
+  font-family: 'icomoon';
   position: absolute;
   right: 17px;
   top: 0;
@@ -467,7 +467,7 @@ body {
 /* ------------advantages------------------ */
 .advantages {
   padding: 55px 0px 40px;
-  background-image: url(/img/advantages.jpg);
+  background-image: url(img/advantages.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   min-height: 285px;
@@ -486,7 +486,7 @@ body {
 .advantages-title {
   font-style: 18px;
   line-height: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 60px 0px 15px;
   position: relative;
 }
@@ -497,7 +497,7 @@ body {
 }
 .advantages-title:before {
   position: absolute;
-  content: "";
+  content: '';
   width: 40px;
   height: 40px;
   border: 2px solid #ffc222;
@@ -506,8 +506,8 @@ body {
   transform: translateX(-50%);
 }
 .advantages-title:after {
-  content: "\f00c";
-  font-family: "icomoon";
+  content: '\f00c';
+  font-family: 'icomoon';
   position: absolute;
   top: 10px;
   font-style: 14px;
@@ -535,8 +535,8 @@ body {
   position: absolute;
   top: 0;
   left: 70px;
-  content: "\f10e";
-  font-family: "icomoon";
+  content: '\f10e';
+  font-family: 'icomoon';
   color: #fff;
   font-style: 16px;
   width: 65px;
@@ -570,7 +570,7 @@ body {
 .news-blog-title {
   font-style: 16px;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 0.5px;
   color: #242424;
   padding: 12px 0px;
@@ -584,7 +584,7 @@ body {
   line-height: 24px;
   color: #242424;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 0.5px;
   margin-bottom: 15px;
 }
@@ -595,7 +595,7 @@ body {
   letter-spacing: 0.1px;
   color: #212020;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .news-slider-inner .slick-btn {
   top: auto;
@@ -643,7 +643,7 @@ body {
   line-height: 36px;
   font-weight: 500;
   letter-spacing: 0.5px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .footer-text {
   color: #d3d2d2;
@@ -664,13 +664,13 @@ body {
   letter-spacing: 0.25px;
   color: #fff;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding-left: 33px;
   position: relative;
 }
 .footer-list a:before {
-  content: "\f003";
-  font-family: "icomoon";
+  content: '\f003';
+  font-family: 'icomoon';
   position: absolute;
   left: 0;
   color: #ffc222;
@@ -678,18 +678,18 @@ body {
 .footer-copy {
   background-color: #303030;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: 12px;
   line-height: 24px;
   font-weight: 400;
   padding: 8px 0px;
 }
 .footer-list .footer-phone:before {
-  content: "\f095";
+  content: '\f095';
   left: 3px;
 }
 .footer-list .footer-adress:before {
-  content: "\f041";
+  content: '\f041';
   left: 3px;
 }
 .popup {
@@ -703,11 +703,11 @@ body {
   border: 1px solid #e6e6e6;
   height: 40px;
   padding: 0px 10px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   cursor: pointer;
 }
-.popup input[type="submit"] {
+.popup input[type='submit'] {
   background-color: #ffc222;
 }
 .header-btn-menu {
